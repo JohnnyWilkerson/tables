@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" /> 
+        <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css" />
+        
+    </head>
+    <body>
+        <div class="container">
+        <h1 class="text-center"><i class="fas fa-video"></i>Table of Movies</h1>
+        <form id="theForm">
+            <div class="form-group">
+                <label>Movies</label>
+                <input class="form-control" type="text" id="movtitle">
+                <label>Director</label>
+                <input class="form-control" type="text" id="movdirector">
+                <label>Year</label>
+                <input class="form-control" type="text" id="movyear">
+            </div>
+            <input type="submit" value="Submit" class="btn btn-info btn-block">
+        </form>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Director</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody id="movtable">
+
+            </tbody>
+
+        </table>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
